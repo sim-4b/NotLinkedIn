@@ -6,7 +6,7 @@ const Sequelize = require('sequelize');
 
 const bcrypt = require("bcrypt");
 
-
+//
 
 router.post("/", async (req, res) => {
     const { name, email, password } = req.body;
